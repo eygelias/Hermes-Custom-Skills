@@ -1,6 +1,6 @@
-# Hermes Local Skills Backup
+# Hermes Custom Skills
 
-Backup portable de todas las skills instaladas localmente en este perfil de Hermes que **no forman parte del catálogo nativo/bundled**.
+Backup portable y público de todas las skills instaladas localmente en este perfil de Hermes que **no forman parte del catálogo nativo/bundled**.
 
 - Fuente local: perfil Hermes `default`
 - Clasificación: `hermes skills list --source local`
@@ -42,7 +42,9 @@ Solo sincroniza nombres registrados en `inventory.json`; nunca copia skills nati
 
 ## Seguridad
 
-Repositorio diseñado como **privado**. Antes de cada publicación se ejecuta escaneo de secretos y datos sensibles. Archivos operativos de Hermes (`.env`, `auth.json`, `config.yaml`, sesiones, memoria) quedan fuera por diseño.
+Antes de cada publicación se ejecuta escaneo de secretos. Archivos operativos de Hermes (`.env`, `auth.json`, `config.yaml`, sesiones, memoria) quedan fuera por diseño.
+
+El respaldo sí conserva rutas locales, IP privadas y notas específicas del entorno porque forman parte de la utilidad de algunas skills. No contiene claves API, tokens ni llaves privadas detectables.
 
 ## Licencias
 

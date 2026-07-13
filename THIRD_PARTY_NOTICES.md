@@ -1,6 +1,6 @@
 # Third-Party Notices
 
-Este repositorio es un respaldo privado de skills instaladas localmente. No cambia ni amplía licencias originales.
+Este repositorio es un respaldo público de skills instaladas localmente. No cambia ni amplía licencias originales.
 
 ## Skills con licencia declarada
 
@@ -26,11 +26,11 @@ Texto de licencia conservado en `licenses/Apache-2.0-canva-skills.txt`.
 
 ## Skills sin licencia explícita
 
-Las demás skills respaldadas no declaran `license:` en su frontmatter. Se conservan para uso privado y recuperación personal. Su presencia aquí **no otorga permiso de redistribución pública**.
+Las demás skills respaldadas no declaran `license:` en su frontmatter. Se publican como parte de este respaldo personal, pero su presencia aquí **no crea una licencia general para redistribución o sublicenciamiento**.
 
-Antes de volver público este repositorio:
+Antes de reutilizar o redistribuir una skill sin licencia:
 
-1. identificar autor y procedencia de cada skill sin licencia;
-2. obtener permiso o añadir licencia válida;
+1. identificar autor y procedencia;
+2. obtener permiso o confirmar derechos de uso;
 3. revisar rutas, IP privadas y datos específicos del entorno;
 4. ejecutar `python scripts/audit.py`.
