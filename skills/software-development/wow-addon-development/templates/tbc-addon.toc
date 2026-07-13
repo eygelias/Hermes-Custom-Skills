@@ -1,0 +1,10 @@
+## Interface: 20505
+## Title: MyAddonName
+## Notes: Short description of what the addon does
+## Author: AuthorName
+## Version: 1.0
+## SavedVariables: MyAddonDB
+## OptionalDeps: LibStub
+
+Core.lua
+Config.lua
