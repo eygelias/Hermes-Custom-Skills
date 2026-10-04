@@ -49,3 +49,7 @@ El respaldo sí conserva rutas locales, IP privadas y notas específicas del ent
 ## Licencias
 
 Cada skill conserva su licencia y atribuciones originales cuando existen. Revisar `THIRD_PARTY_NOTICES.md` antes de cambiar visibilidad a pública.
+
+
+---
+**SEO Tags:** $tags
